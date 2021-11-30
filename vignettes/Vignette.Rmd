@@ -1,0 +1,21 @@
+---
+title: "This is the Vignette for this package"
+author: "Palash sharma"
+date: "2021-11-05"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{This is the Vignette for this package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Relsize)
+```

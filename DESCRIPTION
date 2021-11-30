@@ -1,0 +1,20 @@
+Package: Relsize
+Type: Package
+Title: Calculate the sample size using the Relative Time method under NPH and NPT secnerios
+Version: 0.1.0
+Date: 2021-11-01
+Author: Palash Sharma
+Maintainer: Palash Sharma <psharma4@kumc.edu> 
+Description: This package helps to calulate the sample size using the time to event data under relative time framework. Also, can be used for stochastic curtailment method for futility monitoring purposes. 
+    Sample size restimation can also be done using this package.
+License: GPL-3
+URL: https://www.r-project.org
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports:ggplot2, survival, plyr, R2OpenBUGS
+
